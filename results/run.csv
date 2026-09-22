@@ -1,0 +1,11 @@
+task,harness,tokens_in,tokens_out,steps,success,tool_fails,latency_ms
+extract_email,thin,112,18,1,true,0,12
+extract_email,fat,3239,149,6,true,1,170
+fix_one_line_bug,thin,118,16,1,true,0,12
+fix_one_line_bug,fat,3203,149,6,true,1,169
+count_words,thin,243,31,2,true,0,24
+count_words,fat,3184,137,6,true,0,170
+rewrite_json_key,thin,291,61,2,true,0,24
+rewrite_json_key,fat,1931,112,4,true,0,113
+sort_csv_lines,thin,116,20,1,true,0,12
+sort_csv_lines,fat,3199,165,6,false,1,170
